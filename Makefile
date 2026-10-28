@@ -26,7 +26,7 @@ unit:  ## Run unit tests
 
 .PHONY: package
 package:  ## Run packages (dependencies) checks
-	uv run pip check
+	uv pip check
 	uv run safety check --full-report
 
 .PHONY: test
