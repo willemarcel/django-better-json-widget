@@ -2,3 +2,6 @@
 docs/_build
 *.sqlite3
 *.db
+.coverage
+coverage.xml
+*.pyc
