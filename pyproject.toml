@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "django-better-json-widget"
-version = "0.4.0"
+version = "0.5.0"
 description = "Better JSON Widget for Django Admin"
 readme = "README.md"
 license = "MIT"
