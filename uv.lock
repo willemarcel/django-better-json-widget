@@ -1447,7 +1447,6 @@ dev = [
     { name = "flake8-fixme" },
     { name = "flake8-implicit-str-concat", version = "0.5.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
     { name = "flake8-implicit-str-concat", version = "0.7.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
-    { name = "flake8-pie" },
     { name = "flake8-pytest-style", version = "2.1.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
     { name = "flake8-pytest-style", version = "2.2.0", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
     { name = "flake8-quotes" },
@@ -1499,7 +1498,6 @@ dev = [
     { name = "flake8-executable", specifier = ">=2.1.3" },
     { name = "flake8-fixme", specifier = ">=1.1.1" },
     { name = "flake8-implicit-str-concat", specifier = ">=0.5.0" },
-    { name = "flake8-pie", specifier = ">=0.16.0" },
     { name = "flake8-pytest-style", specifier = ">=2.0.0" },
     { name = "flake8-quotes", specifier = ">=3.4.0" },
     { name = "flake8-rst-docstrings", specifier = ">=0.3.0" },
@@ -1939,18 +1937,6 @@ resolution-markers = [
 sdist = { url = "https://files.pythonhosted.org/packages/b0/83/cb6050d37bd7bcf01dc81ac20d3db96ffc41aca7f73f81fbf61223d5aa03/flake8_implicit_str_concat-0.7.0.tar.gz", hash = "sha256:492d6d1097ec51ca9e712bef9c5b2e8345867dfa8c744a12bf4ef014fdb18561", size = 9876, upload-time = "2026-07-24T12:15:18.04Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f8/3a/f4906c442afbfea281d7e03322c1761670dca950a4ef4abf1cab218fbc96/flake8_implicit_str_concat-0.7.0-py3-none-any.whl", hash = "sha256:fdabd6c6a314678364053b4a8682495692a43c22f229358e801f711999340d8b", size = 5998, upload-time = "2026-07-24T12:15:16.906Z" },
-]
-
-[[package]]
-name = "flake8-pie"
-version = "0.16.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "typing-extensions" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/ae/11/cebfe54fda9897188ca40d1cd755d1be13908ceedfea9e500fae162f06a9/flake8-pie-0.16.0.tar.gz", hash = "sha256:b8dcb7b92706fa33d05d92a4b3e49b7a9fd3f0041849166275b646ba50e515ba", size = 28334, upload-time = "2022-08-08T23:51:12.62Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/83/4c/e953c2402b663155525faba5315df8abe6c02ea7f989cbf43327f5088fc3/flake8_pie-0.16.0-py3-none-any.whl", hash = "sha256:24cd7849b0eee22e2328b9e9d2a1dea40013b0a3106864bbadd06a4b05dbb71f", size = 49171, upload-time = "2022-08-08T23:51:14.535Z" },
 ]
 
 [[package]]
