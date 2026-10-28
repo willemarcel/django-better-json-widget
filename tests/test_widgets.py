@@ -5,7 +5,7 @@ import pytest
 from better_json_widget import widgets
 
 
-@pytest.fixture()
+@pytest.fixture
 def schema():
     return {
         "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -99,7 +99,7 @@ def test_cant_pass_only_follow_field():
     [
         ({"schema": {"type": "object"}}, '{"type": "object"}'),
         (
-            {"schema": (lambda: {"type": "object"})},
+            {"schema": lambda: {"type": "object"}},
             '{"type": "object"}',
         ),
         (
@@ -118,7 +118,7 @@ def test_cant_pass_only_follow_field():
         ),
         (
             {
-                "schema_mapping": (lambda: {"foobar": {"type": "string"}}),
+                "schema_mapping": lambda: {"foobar": {"type": "string"}},
                 "follow_field": "bazooka",
             },
             '{"type": "string"}',

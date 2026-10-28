@@ -65,7 +65,7 @@ class BetterJsonWidget(AdminTextareaWidget):
             schema_mapping = schema_mapping()
 
         attrs = attrs or {}
-        html = super().render(name, value, attrs, renderer)
+        html = str(super().render(name, value, attrs, renderer))
         template = get_template("better_json_widget/better_json_widget.html")
 
         html += template.render(

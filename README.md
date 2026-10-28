@@ -16,7 +16,7 @@ Better JSON Widget for Django Admin
 - Supports [JSON Schema](https://json-schema.org/)
 - You can edit generated UI fields specified in schema or edit raw JSON
 - Use Vue.js for UI
-- Supports Python 3.8+ and Django 3.2+
+- Supports Python 3.8+ and Django 3.2+ (including Django 5.0 and 6.0)
 
 ## Limitations
 
@@ -26,8 +26,8 @@ Better JSON Widget for Django Admin
 So, PR's are welcome!
 
 ## Installation
- 
-Install package 
+
+Install package
 
 ```bash
 pip install django-better-json-widget
